@@ -4,20 +4,22 @@
 
 # CryoEM-related Voice-In commands
 
-This Repository contains voice-triggered Snippets for use with the Voice In Plus, automated speech recognition (ASR) software that runs in Google Chrome and Microsoft Edge. 
-The advantage of this software is that it utilizes the built-in speech-to-text engine that comes with a browser so your sound waves are not being sent to a remote server.
-There is much less of a latency limitation that you encounter with chatbots and with `whisper`.
+This repository contains voice commands used as voice-triggered snippets for `Voice In Plus`, an automated speech recognition (ASR) plugin in Google Chrome and Microsoft Edge. 
+The advantage of this software is that it utilizes the browser's built-in speech-to-text engine so your sound waves are not being sent to a remote server.
+There is less latency compared to chatbots and `whisper`.
 If you speak clearly and somewhat slowly, the software can keep up with you for several paragraphs.
+
 The more clearly you speak, the less likely the software will make a mistake.
-You have to say the punctuation because it does not infer it from the context like `whisper`.
-The main advantage of this ASR software is that it enables the supply of text replacements, which opens up the possibility of doing all kinds of amazing things and returning the expected result every time, unlike chatbots.
+You have to say the punctuation marks because the software does not infer them from the context, unlike the situation with `whisper`.
+The main advantage of `Voice In Plus` is that it enables you to supply text replacements.
+These text replacements allow for all kinds of amazing things and, unlike chatbots, return the expected result every time.
 
-The word error rate is generally quite low except for technical terms.
-The CSV file in this repository contains acronyms for jargon found in the world of cryoEM.
+The word error rate (WER) is quite low except for technical terms.
+The CSV file in this repository contains acronyms for jargon used in cryogenic electron microscopy (cryoEM).
 The acronyms are prepended with the word `expand`.
-I use the word `expand` to group all of my acronym expansions into one region of my Voice In library.
+I use `expand` to group all my acronym expansions into one region of my voice command library to ease their subsequent locating and editing.
 
-You can select the contents of the file and paste them into the bulk ad window of the Voice In plus web page for your individual account.
+You can select the file's contents and paste them into the bulk ad window of the `Voice In Plus` web page for your individual account.
 You can add thousands of commands this way to your existing library of commands.
 Those entries that have the same voice command will be overwritten.
 
